@@ -4,7 +4,7 @@
 # USAGE gc_contect.py -f fasta or multifasta from assembly.fa -o output.txt 
 # DESCRIPTION
 #Calcular el contenido de GC y AT de un Genoma 
-#Calcula el total del genoma 
+#Calcula el total del genoma y del metagenoma
 import argparse
 import re
 
