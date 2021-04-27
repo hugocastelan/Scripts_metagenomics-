@@ -1,6 +1,3 @@
-
-
-
 # AUTHOR  Hugo Castelan Sanchez 
 # CREATED (2019)
 # USAGE  aplildada.R archive_table.txt 
