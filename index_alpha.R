@@ -8,7 +8,10 @@
 library("phyloseq"); packageVersion("phyloseq")
 library("ggplot2"); packageVersion("ggplot2")
 
-datos<-read.table("~/Desktop/generos_termofilos.csv",sep=",",header=T, row.names=1)
+args <- commandArgs(TRUE)
+file_in <- as.character(args[1])
+
+datos<-read.table(file_in,sep=",",header=T, row.names=1)
 OTU <- otu_table(datos, taxa_are_rows = TRUE)
 GP <- prune_species(speciesSums(OTU) > 0, OTU)
 #Todos los indices
