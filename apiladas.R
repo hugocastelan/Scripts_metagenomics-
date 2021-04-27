@@ -1,6 +1,6 @@
 # AUTHOR  Hugo Castelan Sanchez 
 # CREATED (2019)
-# USAGE  aplildada.R archive_table.txt 
+# USAGE  apiladas.R archive_table.txt 
 # DESCRIPTION
 # this script is used to make stacked graphs 
 
