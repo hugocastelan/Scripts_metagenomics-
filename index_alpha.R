@@ -1,4 +1,8 @@
-
+# AUTHOR  Hugo Castelan Sanchez 
+# CREATED (2019)
+# USAGE  Rscript index_alpha.R archive_table.txt 
+# DESCRIPTION
+# this script is used to make grahps of index alpha
 
 
 library("phyloseq"); packageVersion("phyloseq")
